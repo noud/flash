@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0|^6.0|^7.0|^8.0"
+        "illuminate/support": "dev-develop-8.x"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
@@ -34,5 +34,11 @@
                 "Flash": "Laracasts\\Flash\\Flash"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../support"
+        }
+    ]
 }
